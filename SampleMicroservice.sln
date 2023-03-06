@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S32MySQLConsoleApp", "S32My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchInsertMySQLConsoleApp", "BatchInsertMySQLConsoleApp\BatchInsertMySQLConsoleApp.csproj", "{E30871E3-1BC9-4F30-B6E5-38BC6736C106}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{DDFD9BA4-CFEB-49D7-9005-5D4F0C29F22B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingConsoleApp", "LoggingConsoleApp\LoggingConsoleApp.csproj", "{5B68FEF9-3133-4BAD-A48E-1B78E7B0C997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLogConsoleApp", "SeriLogConsoleApp\SeriLogConsoleApp.csproj", "{51647EAE-8CF8-4DB5-9CF6-59E29B9ABDFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,14 @@ Global
 		{E30871E3-1BC9-4F30-B6E5-38BC6736C106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E30871E3-1BC9-4F30-B6E5-38BC6736C106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E30871E3-1BC9-4F30-B6E5-38BC6736C106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B68FEF9-3133-4BAD-A48E-1B78E7B0C997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B68FEF9-3133-4BAD-A48E-1B78E7B0C997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B68FEF9-3133-4BAD-A48E-1B78E7B0C997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B68FEF9-3133-4BAD-A48E-1B78E7B0C997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51647EAE-8CF8-4DB5-9CF6-59E29B9ABDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51647EAE-8CF8-4DB5-9CF6-59E29B9ABDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51647EAE-8CF8-4DB5-9CF6-59E29B9ABDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51647EAE-8CF8-4DB5-9CF6-59E29B9ABDFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
